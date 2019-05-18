@@ -11,11 +11,11 @@ Y = dataset[:, 9]
 (X_train, X_test, Y_train, Y_test) = train_test_split(X, Y, test_size=0.2, random_state=9)
 
 model = Sequential()
-model.add(Dense(12, input_dim=9, activation='linear'))
-model.add(Dense(9, activation='linear'))
-model.add(Dense(6, activation='linear'))
-model.add(Dense(3, activation='linear'))
-model.add(Dense(1, activation='linear'))
+model.add(Dense(12, input_dim=9, activation='tanh'))
+model.add(Dense(9, activation='tanh'))
+model.add(Dense(6, activation='tanh'))
+model.add(Dense(3, activation='relu'))
+model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam', metrics=['accuracy'])
 history = model.fit(X_train, Y_train, validation_data=(X_test, Y_test), nb_epoch=500, batch_size=10)
 
