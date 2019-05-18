@@ -30,4 +30,4 @@ callbacks_list = [checkpoint]
 # evaluate the model
 
 scores = model.evaluate(X_test, Y_test)
-print("\n%s: %.2f%%" % (model.metrics_names[0], scores[0] * 100))
+print("Accuracy: %.2f%%" %(scores[1]*100))
