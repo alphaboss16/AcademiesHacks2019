@@ -22,7 +22,7 @@ model.add(Dense(6, activation='tanh', init='uniform', activity_regularizer=regul
 model.add(Dense(3, activation='relu', init='uniform', activity_regularizer=regularizers.l2(0.001)))
 model.add(Dense(1, init='uniform'))
 model.compile(loss='mean_squared_error', optimizer='adam')
-history = model.fit(X_train, Y_train, validation_data=(X_test, Y_test), nb_epoch=10, batch_size=10)
+history = model.fit(X_train, Y_train, validation_data=(X_test, Y_test), nb_epoch=50, batch_size=10)
 
 filepath = "Model/{loss:.4f}.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
@@ -30,4 +30,4 @@ callbacks_list = [checkpoint]
 # evaluate the model
 
 scores = model.evaluate(X_test, Y_test)
-print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1] * 100))
+print("\n%s: %.2f%%" % (model.metrics_names[0], scores[0] * 100))
