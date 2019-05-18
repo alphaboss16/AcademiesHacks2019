@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prices.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -168,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558200762648</updated>
       <workItem from="1558200772943" duration="2712000" />
-      <workItem from="1558208533971" duration="5191000" />
+      <workItem from="1558208533971" duration="9954000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <created>1558213698936</created>
@@ -177,11 +177,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558213698936</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixes">
+      <created>1558214710021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558214710021</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixes">
+      <created>1558219327335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558219327335</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7903000" />
+    <option name="totallyTimeSpent" value="12666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -201,12 +215,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.21808511" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.2925532" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.24818109" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.24818109" />
       <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="4" side_tool="true" weight="0.23524657" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -241,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prices.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
