@@ -25,11 +25,11 @@ model.add(Dense(1, init='uniform'))
 model.compile(loss='mean_squared_error', optimizer='adam', metrics=['accuracy'])
 
 
-filepath = "..\..\life.hdf5"
+filepath = "life.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 # evaluate the model
-history = model.fit(X_train, Y_train, validation_data=(X_test, Y_test), nb_epoch=1, batch_size=10, callbacks=callbacks_list)
+history = model.fit(X_train, Y_train, validation_data=(X_test, Y_test), nb_epoch=2000, batch_size=10, callbacks=callbacks_list)
 scores = model.evaluate(X_test, Y_test)
 
 model_json = model.to_json()
